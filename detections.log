@@ -1,0 +1,740 @@
+2025-10-12 10:44:57,723 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-12 10:45:27,764 - __main__ - INFO -    Frames procesados: 0
+2025-10-12 10:45:27,764 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-12 10:49:54,078 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 10:49:54,078 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 10:49:54,207 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 10:49:54,207 - __main__ - INFO - Conectando a camara: rtsp://admin:admin@192.168.100.38:1935
+2025-10-12 10:50:06,544 - __main__ - INFO - Verificando lectura de frames...
+2025-10-12 10:50:36,588 - __main__ - ERROR - ERROR: Camara conectada pero no puede leer frames
+2025-10-12 10:50:36,588 - __main__ - ERROR - Intenta con una URL RTSP diferente o usa webcam
+2025-10-12 10:50:36,590 - __main__ - ERROR - 💥 Error fatal: No se pueden leer frames de la camara
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 313, in main
+    system = PoseDetectionSystem()
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 82, in __init__
+    raise RuntimeError("No se pueden leer frames de la camara")
+RuntimeError: No se pueden leer frames de la camara
+2025-10-12 10:51:43,423 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 10:51:43,423 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 10:51:43,523 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 10:51:43,523 - __main__ - INFO - Conectando a camara: 0
+2025-10-12 10:51:43,966 - __main__ - ERROR - ERROR: No se pudo abrir la camara
+2025-10-12 10:51:43,966 - __main__ - ERROR - Verifica:
+2025-10-12 10:51:43,967 - __main__ - ERROR -   1. La URL RTSP es correcta (puerto 554 para RTSP, no 1935)
+2025-10-12 10:51:43,967 - __main__ - ERROR -   2. La camara esta encendida y accesible en la red
+2025-10-12 10:51:43,967 - __main__ - ERROR -   3. Las credenciales son correctas
+2025-10-12 10:51:43,967 - __main__ - ERROR -   4. Prueba con webcam (CAMERA_SOURCE = 0) primero
+2025-10-12 10:51:43,967 - __main__ - ERROR - 💥 Error fatal: No se pudo conectar a la camara
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 313, in main
+    system = PoseDetectionSystem()
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 69, in __init__
+    raise RuntimeError("No se pudo conectar a la camara")
+RuntimeError: No se pudo conectar a la camara
+2025-10-12 10:53:53,537 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 10:53:53,538 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 10:53:53,637 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 10:53:53,637 - __main__ - INFO - Conectando a camara: 0
+2025-10-12 10:53:54,006 - __main__ - ERROR - ERROR: No se pudo abrir la camara
+2025-10-12 10:53:54,006 - __main__ - ERROR - Verifica:
+2025-10-12 10:53:54,006 - __main__ - ERROR -   1. La URL RTSP es correcta (puerto 554 para RTSP, no 1935)
+2025-10-12 10:53:54,006 - __main__ - ERROR -   2. La camara esta encendida y accesible en la red
+2025-10-12 10:53:54,007 - __main__ - ERROR -   3. Las credenciales son correctas
+2025-10-12 10:53:54,007 - __main__ - ERROR -   4. Prueba con webcam (CAMERA_SOURCE = 0) primero
+2025-10-12 10:53:54,007 - __main__ - ERROR - 💥 Error fatal: No se pudo conectar a la camara
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 313, in main
+    system = PoseDetectionSystem()
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 69, in __init__
+    raise RuntimeError("No se pudo conectar a la camara")
+RuntimeError: No se pudo conectar a la camara
+2025-10-12 10:55:08,880 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 10:55:08,880 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 10:55:08,984 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 10:55:08,984 - __main__ - INFO - Conectando a camara: 3
+2025-10-12 10:55:10,186 - __main__ - INFO - Verificando lectura de frames...
+2025-10-12 10:55:10,187 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-12 10:55:10,187 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-12 10:55:10,187 - __main__ - INFO - ▶️  Iniciando detección...
+2025-10-12 10:55:10,187 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-12 11:00:30,352 - __main__ - INFO - ⚠️  Interrupción por usuario
+2025-10-12 11:00:30,353 - __main__ - INFO - 🧹 Liberando recursos...
+2025-10-12 11:00:30,368 - __main__ - INFO - 📊 Estadísticas finales:
+2025-10-12 11:00:30,368 - __main__ - INFO -    Frames procesados: 7610
+2025-10-12 11:00:30,368 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-12 11:00:30,368 - __main__ - INFO - ✅ Sistema detenido
+2025-10-12 11:00:41,926 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 11:00:41,927 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 11:00:42,033 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 11:00:42,034 - __main__ - INFO - Conectando a camara: 3
+2025-10-12 11:00:43,299 - __main__ - INFO - Verificando lectura de frames...
+2025-10-12 11:00:43,300 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-12 11:00:43,300 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-12 11:00:43,300 - __main__ - INFO - ▶️  Iniciando detección...
+2025-10-12 11:00:43,300 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-12 21:01:47,902 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 21:01:47,903 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 21:01:48,160 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 21:01:48,161 - __main__ - INFO - Conectando a camara: 3
+2025-10-12 21:01:49,542 - __main__ - INFO - Verificando lectura de frames...
+2025-10-12 21:01:49,543 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-12 21:01:49,543 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-12 21:01:49,544 - __main__ - INFO - ▶️  Iniciando detección...
+2025-10-12 21:01:49,544 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-12 21:01:49,583 - __main__ - INFO - 🧹 Liberando recursos...
+2025-10-12 21:01:49,623 - __main__ - INFO - 📊 Estadísticas finales:
+2025-10-12 21:01:49,623 - __main__ - INFO -    Frames procesados: 1
+2025-10-12 21:01:49,623 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-12 21:01:49,624 - __main__ - INFO - ✅ Sistema detenido
+2025-10-12 21:01:49,624 - __main__ - ERROR - 💥 Error fatal: module 'config' has no attribute 'LINEA_SUELO'
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 314, in main
+    system.run()
+    ~~~~~~~~~~^^
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 276, in run
+    frame = self.process_frame(frame)
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 199, in process_frame
+    self.draw_zones(frame)
+    ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 116, in draw_zones
+    ground_y = int(config.LINEA_SUELO * height)
+                   ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'config' has no attribute 'LINEA_SUELO'
+2025-10-12 21:02:36,524 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 21:02:36,525 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 21:02:36,723 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 21:02:36,724 - __main__ - INFO - Conectando a camara: 3
+2025-10-12 21:02:38,144 - __main__ - INFO - Verificando lectura de frames...
+2025-10-12 21:02:38,145 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-12 21:02:38,146 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-12 21:02:38,147 - __main__ - INFO - ▶️  Iniciando detección...
+2025-10-12 21:02:38,147 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-12 21:04:18,107 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.78)
+2025-10-12 21:04:22,129 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:04:38,560 - __main__ - INFO - ⚠️  Interrupción por usuario
+2025-10-12 21:04:38,560 - __main__ - INFO - 🧹 Liberando recursos...
+2025-10-12 21:04:38,593 - __main__ - INFO - 📊 Estadísticas finales:
+2025-10-12 21:04:38,593 - __main__ - INFO -    Frames procesados: 1714
+2025-10-12 21:04:38,593 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-12 21:04:38,593 - __main__ - INFO - ✅ Sistema detenido
+2025-10-12 21:04:43,992 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 21:04:43,992 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 21:04:44,092 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 21:04:44,092 - __main__ - INFO - Conectando a camara: 3
+2025-10-12 21:04:45,335 - __main__ - INFO - Verificando lectura de frames...
+2025-10-12 21:04:45,336 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-12 21:04:45,336 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-12 21:04:45,336 - __main__ - INFO - ▶️  Iniciando detección...
+2025-10-12 21:04:45,336 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-12 21:05:37,510 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.80)
+2025-10-12 21:05:41,543 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:04,688 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.77)
+2025-10-12 21:06:08,715 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:08,786 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.75)
+2025-10-12 21:06:12,811 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:17,655 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:21,684 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:21,872 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:25,900 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:25,978 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:29,995 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:30,115 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:34,133 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:34,291 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:38,310 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:38,411 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:42,439 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:42,550 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:46,569 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:46,691 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:50,710 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:50,805 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:54,835 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:54,922 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:06:58,950 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:06:59,048 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:03,056 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:07:03,134 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:07,160 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:07:07,229 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:11,247 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:07:11,315 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:15,341 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:07:15,409 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:19,426 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:07:19,620 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:23,641 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:07:23,721 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:27,739 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:07:27,871 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:31,889 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:07:31,959 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:07:33,973 - __main__ - INFO - ⚠️  Interrupción por usuario
+2025-10-12 21:07:33,973 - __main__ - INFO - 🧹 Liberando recursos...
+2025-10-12 21:07:40,063 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 21:07:40,064 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 21:07:40,163 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 21:07:40,163 - __main__ - INFO - Conectando a camara: 3
+2025-10-12 21:07:41,292 - __main__ - INFO - Verificando lectura de frames...
+2025-10-12 21:07:41,292 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-12 21:07:41,292 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-12 21:07:41,293 - __main__ - INFO - ▶️  Iniciando detección...
+2025-10-12 21:07:41,293 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-12 21:08:10,915 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.76)
+2025-10-12 21:08:14,936 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:08:15,479 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.90)
+2025-10-12 21:08:19,506 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:08:22,213 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.67)
+2025-10-12 21:08:26,242 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:08:28,666 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.71)
+2025-10-12 21:08:32,684 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:08:32,765 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.71)
+2025-10-12 21:08:36,780 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:08:37,207 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.68)
+2025-10-12 21:08:41,223 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:08:41,292 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.73)
+2025-10-12 21:08:45,308 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:09:23,664 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.72)
+2025-10-12 21:09:27,694 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:09:28,319 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.77)
+2025-10-12 21:09:32,346 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:09:35,950 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.90)
+2025-10-12 21:09:39,975 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:09:51,505 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.74)
+2025-10-12 21:09:55,522 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:09:55,592 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.73)
+2025-10-12 21:09:59,618 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:10:17,070 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.68)
+2025-10-12 21:10:21,086 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:10:47,399 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.75)
+2025-10-12 21:10:51,429 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:10:52,053 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.72)
+2025-10-12 21:10:56,081 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:10:56,153 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.69)
+2025-10-12 21:11:00,175 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:11:00,415 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.76)
+2025-10-12 21:11:04,442 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:11:54,480 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.68)
+2025-10-12 21:11:58,509 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:11:58,707 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.71)
+2025-10-12 21:12:02,721 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:12:35,935 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.72)
+2025-10-12 21:12:39,962 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:13:29,264 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.68)
+2025-10-12 21:13:33,282 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:13:33,351 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.69)
+2025-10-12 21:13:37,382 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:13:40,375 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.71)
+2025-10-12 21:13:44,402 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:13:44,537 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.71)
+2025-10-12 21:13:48,565 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:13:48,644 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.71)
+2025-10-12 21:13:52,676 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:14:16,420 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.57)
+2025-10-12 21:14:20,447 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:14:20,883 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.77)
+2025-10-12 21:14:24,899 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:14:24,969 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.90)
+2025-10-12 21:14:28,996 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:15:43,322 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.85)
+2025-10-12 21:15:47,341 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:15:47,409 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.99)
+2025-10-12 21:15:51,438 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:15:55,428 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.86)
+2025-10-12 21:15:59,448 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:15:59,517 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.90)
+2025-10-12 21:16:03,535 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:16:07,166 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.54)
+2025-10-12 21:16:11,183 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:16:11,261 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.94)
+2025-10-12 21:16:15,291 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:16:15,360 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.94)
+2025-10-12 21:16:19,379 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:16:20,531 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.96)
+2025-10-12 21:16:24,557 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:16:24,627 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.95)
+2025-10-12 21:16:28,657 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:16:28,728 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.96)
+2025-10-12 21:16:32,754 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:17:52,494 - __main__ - INFO - ⚠️  Interrupción por usuario
+2025-10-12 21:17:52,495 - __main__ - INFO - 🧹 Liberando recursos...
+2025-10-12 21:17:52,517 - __main__ - INFO - 📊 Estadísticas finales:
+2025-10-12 21:17:52,518 - __main__ - INFO -    Frames procesados: 7068
+2025-10-12 21:17:52,518 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-12 21:17:52,518 - __main__ - INFO - ✅ Sistema detenido
+2025-10-12 21:21:02,594 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-12 21:21:02,594 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-12 21:21:02,745 - __main__ - INFO - Modelo cargado correctamente
+2025-10-12 21:21:02,746 - __main__ - INFO - Conectando a camara: 3
+2025-10-12 21:21:03,951 - __main__ - INFO - Verificando lectura de frames...
+2025-10-12 21:21:03,952 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-12 21:21:03,952 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-12 21:21:03,952 - __main__ - INFO - ▶️  Iniciando detección...
+2025-10-12 21:21:03,952 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-12 21:21:13,081 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.93)
+2025-10-12 21:21:17,111 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:21:17,181 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.94)
+2025-10-12 21:21:21,199 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:22:43,120 - __main__ - WARNING - 🚨 AGACHADO detectado (conf: 0.90)
+2025-10-12 21:22:47,136 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:22:47,207 - __main__ - WARNING - 🚨 AGACHADO detectado (conf: 0.86)
+2025-10-12 21:22:51,222 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:23:59,080 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.92)
+2025-10-12 21:24:03,097 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:24:03,173 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.92)
+2025-10-12 21:24:07,190 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:24:11,557 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.97)
+2025-10-12 21:24:15,575 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:24:15,644 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.98)
+2025-10-12 21:24:19,661 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:24:31,942 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.98)
+2025-10-12 21:24:35,970 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:24:36,045 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.98)
+2025-10-12 21:24:40,065 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:25:17,099 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.78)
+2025-10-12 21:25:21,127 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:25:21,211 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.77)
+2025-10-12 21:25:25,231 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:25:25,308 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.77)
+2025-10-12 21:25:29,316 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:25:29,805 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.75)
+2025-10-12 21:25:33,824 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:25:59,902 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.89)
+2025-10-12 21:26:03,934 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:26:04,008 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.96)
+2025-10-12 21:26:08,038 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:26:08,541 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.61)
+2025-10-12 21:26:12,558 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:26:12,635 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.78)
+2025-10-12 21:26:16,653 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:26:16,762 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.80)
+2025-10-12 21:26:20,770 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:26:20,861 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.80)
+2025-10-12 21:26:24,868 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:26:24,986 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.99)
+2025-10-12 21:26:29,009 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:26:50,964 - __main__ - WARNING - 🚨 PATADA detectada (conf: 0.89)
+2025-10-12 21:26:54,971 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:27:00,113 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.98)
+2025-10-12 21:27:04,126 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:27:04,249 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.98)
+2025-10-12 21:27:08,260 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:27:08,375 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.99)
+2025-10-12 21:27:12,389 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:27:13,919 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 0.99)
+2025-10-12 21:27:17,936 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:27:18,011 - __main__ - WARNING - 🚨 ESCALAMIENTO detectado (conf: 1.00)
+2025-10-12 21:27:22,039 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-12 21:32:45,579 - __main__ - INFO - ⚠️  Interrupción por usuario
+2025-10-12 21:32:45,580 - __main__ - INFO - 🧹 Liberando recursos...
+2025-10-12 21:32:45,612 - __main__ - INFO - 📊 Estadísticas finales:
+2025-10-12 21:32:45,613 - __main__ - INFO -    Frames procesados: 8334
+2025-10-12 21:32:45,613 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-12 21:32:45,613 - __main__ - INFO - ✅ Sistema detenido
+2025-10-20 18:42:34,754 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 18:42:34,755 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 18:42:34,989 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 18:42:34,990 - __main__ - INFO - Conectando a camara: 3
+2025-10-20 18:42:37,060 - __main__ - INFO - Verificando lectura de frames...
+2025-10-20 18:42:37,062 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-20 18:42:37,064 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-20 18:42:37,064 - __main__ - INFO - ▶️  Iniciando detección...
+2025-10-20 18:42:37,065 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-20 18:49:00,767 - __main__ - INFO - ⚠️  Interrupción por usuario
+2025-10-20 18:49:00,768 - __main__ - INFO - 🧹 Liberando recursos...
+2025-10-20 18:49:00,803 - __main__ - INFO - 📊 Estadísticas finales:
+2025-10-20 18:49:00,804 - __main__ - INFO -    Frames procesados: 4227
+2025-10-20 18:49:00,805 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-20 18:49:00,805 - __main__ - INFO - ✅ Sistema detenido
+2025-10-20 18:53:46,940 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 18:53:46,940 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 18:53:47,113 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 18:53:47,114 - __main__ - INFO - Conectando a camara: 0
+2025-10-20 18:53:47,522 - __main__ - ERROR - ERROR: No se pudo abrir la camara
+2025-10-20 18:53:47,523 - __main__ - ERROR - Verifica:
+2025-10-20 18:53:47,523 - __main__ - ERROR -   1. La URL RTSP es correcta (puerto 554 para RTSP, no 1935)
+2025-10-20 18:53:47,523 - __main__ - ERROR -   2. La camara esta encendida y accesible en la red
+2025-10-20 18:53:47,523 - __main__ - ERROR -   3. Las credenciales son correctas
+2025-10-20 18:53:47,524 - __main__ - ERROR -   4. Prueba con webcam (CAMERA_SOURCE = 0) primero
+2025-10-20 18:53:47,524 - __main__ - ERROR - Error fatal: No se pudo conectar a la camara
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 315, in main
+    system = PoseDetectionSystem()
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 65, in __init__
+    raise RuntimeError("No se pudo conectar a la camara")
+RuntimeError: No se pudo conectar a la camara
+2025-10-20 18:54:15,770 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 18:54:15,770 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 18:54:15,869 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 18:54:15,869 - __main__ - INFO - Conectando a camara: 0
+2025-10-20 18:54:16,162 - __main__ - ERROR - ERROR: No se pudo abrir la camara
+2025-10-20 18:54:16,162 - __main__ - ERROR - Verifica:
+2025-10-20 18:54:16,162 - __main__ - ERROR -   1. La URL RTSP es correcta (puerto 554 para RTSP, no 1935)
+2025-10-20 18:54:16,162 - __main__ - ERROR -   2. La camara esta encendida y accesible en la red
+2025-10-20 18:54:16,162 - __main__ - ERROR -   3. Las credenciales son correctas
+2025-10-20 18:54:16,162 - __main__ - ERROR -   4. Prueba con webcam (CAMERA_SOURCE = 0) primero
+2025-10-20 18:54:16,163 - __main__ - ERROR - Error fatal: No se pudo conectar a la camara
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 315, in main
+    system = PoseDetectionSystem()
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 65, in __init__
+    raise RuntimeError("No se pudo conectar a la camara")
+RuntimeError: No se pudo conectar a la camara
+2025-10-20 18:54:34,554 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 18:54:34,554 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 18:54:34,655 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 18:54:34,655 - __main__ - INFO - Conectando a camara: 3
+2025-10-20 18:54:35,786 - __main__ - INFO - Verificando lectura de frames...
+2025-10-20 18:54:35,787 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-20 18:54:35,787 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-20 18:54:35,788 - __main__ - INFO - Iniciando deteccion...
+2025-10-20 18:54:35,788 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-20 18:54:37,159 - __main__ - INFO - Liberando recursos...
+2025-10-20 18:54:37,195 - __main__ - INFO - Estadisticas finales:
+2025-10-20 18:54:37,196 - __main__ - INFO -    Frames procesados: 28
+2025-10-20 18:54:37,196 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-20 18:54:37,197 - __main__ - INFO - Sistema detenido
+2025-10-20 18:54:37,197 - __main__ - ERROR - Error fatal: name 'calculate_distance' is not defined
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 316, in main
+    system.run()
+    ~~~~~~~~~~^^
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 278, in run
+    frame = self.process_frame(frame)
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 210, in process_frame
+    pose_results = self.pose_detector.analyze_pose(keypoints, width, height)
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\detector.py", line 759, in analyze_pose
+    'mirar_ventana': self.detect_mirar_ventana(keypoints, frame_width, frame_height),
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\detector.py", line 572, in detect_mirar_ventana
+    distance = calculate_distance((nose[0], nose[1]), (wrist[0], wrist[1]))
+               ^^^^^^^^^^^^^^^^^^
+NameError: name 'calculate_distance' is not defined. Did you mean: 'calculate_torso_angle'?
+2025-10-20 18:55:15,016 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 18:55:15,016 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 18:55:15,164 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 18:55:15,165 - __main__ - INFO - Conectando a camara: 3
+2025-10-20 18:55:16,347 - __main__ - INFO - Verificando lectura de frames...
+2025-10-20 18:55:16,347 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-20 18:55:16,348 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-20 18:55:16,348 - __main__ - INFO - Iniciando deteccion...
+2025-10-20 18:55:16,348 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-20 18:55:26,623 - __main__ - INFO - Liberando recursos...
+2025-10-20 18:55:26,643 - __main__ - INFO - Estadisticas finales:
+2025-10-20 18:55:26,647 - __main__ - INFO -    Frames procesados: 236
+2025-10-20 18:55:26,648 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-20 18:55:26,649 - __main__ - INFO - Sistema detenido
+2025-10-20 18:55:26,650 - __main__ - ERROR - Error fatal: 'agachado'
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 316, in main
+    system.run()
+    ~~~~~~~~~~^^
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 278, in run
+    frame = self.process_frame(frame)
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 223, in process_frame
+    detected, conf, meta = pose_results['agachado']
+                           ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'agachado'
+2025-10-20 18:55:47,587 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 18:55:47,587 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 18:55:47,727 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 18:55:47,727 - __main__ - INFO - Conectando a camara: 3
+2025-10-20 18:55:48,853 - __main__ - INFO - Verificando lectura de frames...
+2025-10-20 18:55:48,854 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-20 18:55:48,854 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-20 18:55:48,854 - __main__ - INFO - Iniciando deteccion...
+2025-10-20 18:55:48,854 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-20 18:55:53,307 - __main__ - INFO - Liberando recursos...
+2025-10-20 18:55:53,330 - __main__ - INFO - Estadisticas finales:
+2025-10-20 18:55:53,330 - __main__ - INFO -    Frames procesados: 65
+2025-10-20 18:55:53,330 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-20 18:55:53,331 - __main__ - INFO - Sistema detenido
+2025-10-20 18:55:53,331 - __main__ - ERROR - Error fatal: 'agachado'
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 316, in main
+    system.run()
+    ~~~~~~~~~~^^
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 278, in run
+    frame = self.process_frame(frame)
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 223, in process_frame
+    detected, conf, meta = pose_results['agachado']
+                           ~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'agachado'
+2025-10-20 18:56:25,759 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 18:56:25,760 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 18:56:25,866 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 18:56:25,867 - __main__ - INFO - Conectando a camara: 3
+2025-10-20 18:56:26,994 - __main__ - INFO - Verificando lectura de frames...
+2025-10-20 18:56:26,995 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-20 18:56:26,995 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-20 18:56:26,995 - __main__ - INFO - Iniciando deteccion...
+2025-10-20 18:56:26,995 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-20 18:56:41,834 - __main__ - WARNING - PATADA detectada (conf: 0.69)
+2025-10-20 18:56:45,854 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 18:56:51,402 - __main__ - WARNING - PATADA detectada (conf: 0.89)
+2025-10-20 18:56:55,430 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 18:57:34,276 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.74)
+2025-10-20 18:57:38,304 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 18:57:38,366 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.74)
+2025-10-20 18:57:42,390 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 18:59:06,597 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.74)
+2025-10-20 18:59:10,615 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:00:44,661 - __main__ - WARNING - PATADA detectada (conf: 0.76)
+2025-10-20 19:00:48,691 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:00:48,766 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.74)
+2025-10-20 19:00:52,783 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:00:57,649 - __main__ - WARNING - PATADA detectada (conf: 0.80)
+2025-10-20 19:01:01,670 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:01:01,770 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.98)
+2025-10-20 19:01:05,788 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:01:05,886 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.79)
+2025-10-20 19:01:09,914 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:01:38,559 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.77)
+2025-10-20 19:01:42,578 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:01:42,717 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.77)
+2025-10-20 19:01:46,741 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:01:46,881 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.98)
+2025-10-20 19:01:50,909 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:01:50,998 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.98)
+2025-10-20 19:01:55,017 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:01:57,700 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.97)
+2025-10-20 19:02:01,713 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:02:01,832 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.77)
+2025-10-20 19:02:05,861 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:02:05,938 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.75)
+2025-10-20 19:02:09,954 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:02:10,037 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.76)
+2025-10-20 19:02:14,069 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:02:14,143 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.76)
+2025-10-20 19:02:18,170 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:02:27,951 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.97)
+2025-10-20 19:02:31,982 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:02:32,084 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.97)
+2025-10-20 19:02:36,103 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:02:41,202 - __main__ - WARNING - PATADA detectada (conf: 0.73)
+2025-10-20 19:02:45,221 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:03:06,807 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:03:06,808 - __main__ - WARNING - PATADA detectada (conf: 0.61)
+2025-10-20 19:03:10,828 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:03:14,846 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:03:14,922 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:03:18,944 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:03:24,702 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:03:28,721 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:03:28,798 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:03:32,820 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:03:51,269 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:03:55,288 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:03:55,437 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:03:59,460 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:04:08,030 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:04:12,058 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:04:12,136 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:04:16,169 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:04:46,643 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.76)
+2025-10-20 19:04:50,660 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:04:50,758 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.76)
+2025-10-20 19:04:54,787 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:05:38,752 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:05:42,779 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:05:49,854 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.74)
+2025-10-20 19:05:53,872 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:05:53,958 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.74)
+2025-10-20 19:05:57,966 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:05:58,044 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.74)
+2025-10-20 19:06:02,053 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:07:30,305 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:07:34,323 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:07:37,615 - __main__ - WARNING - PATADA detectada (conf: 0.74)
+2025-10-20 19:07:41,643 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:07:41,730 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 1.00)
+2025-10-20 19:07:45,749 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:07:45,827 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.95)
+2025-10-20 19:07:49,834 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:07:49,917 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.98)
+2025-10-20 19:07:53,926 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:07:54,023 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 1.00)
+2025-10-20 19:07:58,051 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:07:58,130 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:08:02,136 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:02,255 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 1.00)
+2025-10-20 19:08:06,284 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:06,801 - __main__ - WARNING - PATADA detectada (conf: 0.80)
+2025-10-20 19:08:10,819 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:11,371 - __main__ - WARNING - PATADA detectada (conf: 0.55)
+2025-10-20 19:08:15,399 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:29,804 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.78)
+2025-10-20 19:08:33,822 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:33,897 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.76)
+2025-10-20 19:08:37,925 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:38,671 - __main__ - WARNING - PATADA detectada (conf: 0.57)
+2025-10-20 19:08:42,690 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:42,763 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:08:46,792 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:48,233 - __main__ - WARNING - PATADA detectada (conf: 0.62)
+2025-10-20 19:08:52,261 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:52,990 - __main__ - WARNING - PATADA detectada (conf: 0.75)
+2025-10-20 19:08:57,016 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:08:58,507 - __main__ - WARNING - PATADA detectada (conf: 0.61)
+2025-10-20 19:09:02,528 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:03,081 - __main__ - WARNING - PATADA detectada (conf: 0.51)
+2025-10-20 19:09:07,099 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:07,186 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.92)
+2025-10-20 19:09:11,204 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:11,279 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.78)
+2025-10-20 19:09:15,296 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:16,707 - __main__ - WARNING - PATADA detectada (conf: 0.90)
+2025-10-20 19:09:20,724 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:20,801 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 1.00)
+2025-10-20 19:09:24,818 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:24,893 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:09:28,909 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:28,998 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:09:33,026 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:33,102 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.98)
+2025-10-20 19:09:37,130 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:37,206 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:09:41,232 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:41,308 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:09:45,323 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:45,410 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 1.00)
+2025-10-20 19:09:49,437 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:49,513 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:09:53,542 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:53,618 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.75)
+2025-10-20 19:09:57,648 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:09:57,739 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:10:01,768 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:10:01,860 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:10:05,890 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:10:07,600 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:10:11,627 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:10:11,732 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:10:15,739 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:10:15,907 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:10:19,938 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:10:31,774 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.95)
+2025-10-20 19:10:35,792 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:10:35,880 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:10:39,913 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:10:39,997 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.97)
+2025-10-20 19:10:44,014 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:10:44,155 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.74)
+2025-10-20 19:10:48,165 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:11:31,311 - __main__ - INFO - Interrupcion por usuario
+2025-10-20 19:11:31,312 - __main__ - INFO - Liberando recursos...
+2025-10-20 19:11:31,335 - __main__ - INFO - Estadisticas finales:
+2025-10-20 19:11:31,336 - __main__ - INFO -    Frames procesados: 7609
+2025-10-20 19:11:31,336 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-20 19:11:31,337 - __main__ - INFO - Sistema detenido
+2025-10-20 19:11:44,354 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 19:11:44,354 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 19:11:44,484 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 19:11:44,484 - __main__ - INFO - Conectando a camara: 3
+2025-10-20 19:11:45,772 - __main__ - INFO - Verificando lectura de frames...
+2025-10-20 19:11:45,773 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-20 19:11:45,773 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-20 19:11:45,773 - __main__ - INFO - Iniciando deteccion...
+2025-10-20 19:11:45,774 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-20 19:12:06,562 - __main__ - WARNING - PATADA detectada (conf: 0.56)
+2025-10-20 19:12:10,591 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:12:10,664 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.97)
+2025-10-20 19:12:14,671 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:12:38,033 - __main__ - WARNING - PATADA detectada (conf: 0.88)
+2025-10-20 19:12:42,062 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:12:42,147 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.95)
+2025-10-20 19:12:46,174 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:12:48,090 - __main__ - WARNING - PATADA detectada (conf: 0.55)
+2025-10-20 19:12:52,118 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:12:52,197 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:12:56,224 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:12:56,298 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 1.00)
+2025-10-20 19:13:00,315 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:13:00,401 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.98)
+2025-10-20 19:13:04,429 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:13:29,042 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.93)
+2025-10-20 19:13:33,047 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:13:33,129 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:13:37,136 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:13:37,358 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.94)
+2025-10-20 19:13:41,376 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:15:35,221 - __main__ - WARNING - PATADA detectada (conf: 0.53)
+2025-10-20 19:15:39,240 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:15:39,311 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.98)
+2025-10-20 19:15:43,338 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:15:43,413 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.95)
+2025-10-20 19:15:47,437 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:15:47,513 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.99)
+2025-10-20 19:15:51,535 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:15:58,138 - __main__ - WARNING - PATADA detectada (conf: 0.55)
+2025-10-20 19:16:02,157 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:16:09,770 - __main__ - WARNING - PATADA detectada (conf: 0.56)
+2025-10-20 19:16:13,788 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:16:13,858 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 1.00)
+2025-10-20 19:16:17,894 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:16:42,832 - __main__ - WARNING - PATADA detectada (conf: 0.58)
+2025-10-20 19:16:46,853 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:16:52,640 - __main__ - WARNING - PATADA detectada (conf: 0.53)
+2025-10-20 19:16:56,667 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:16:57,212 - __main__ - WARNING - PATADA detectada (conf: 0.55)
+2025-10-20 19:17:01,231 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:17:01,803 - __main__ - WARNING - PATADA detectada (conf: 0.56)
+2025-10-20 19:17:05,833 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:17:06,347 - __main__ - WARNING - PATADA detectada (conf: 0.53)
+2025-10-20 19:17:10,364 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:17:54,210 - __main__ - WARNING - PATADA detectada (conf: 0.86)
+2025-10-20 19:17:58,239 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:17:58,315 - __main__ - WARNING - ESCALAMIENTO detectado (conf: 0.96)
+2025-10-20 19:18:02,334 - notifier - ERROR - ❌ Error de conexión con la API
+2025-10-20 19:18:16,828 - __main__ - INFO - Interrupcion por usuario
+2025-10-20 19:18:16,829 - __main__ - INFO - Liberando recursos...
+2025-10-20 19:18:16,846 - __main__ - INFO - Estadisticas finales:
+2025-10-20 19:18:16,846 - __main__ - INFO -    Frames procesados: 3874
+2025-10-20 19:18:16,846 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-20 19:18:16,846 - __main__ - INFO - Sistema detenido
+2025-10-20 19:18:23,572 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 19:18:23,572 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 19:18:23,676 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 19:18:23,676 - __main__ - INFO - Conectando a camara: 3
+2025-10-20 19:18:24,840 - __main__ - INFO - Verificando lectura de frames...
+2025-10-20 19:18:24,841 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-20 19:18:24,841 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-20 19:18:24,841 - __main__ - INFO - Iniciando deteccion...
+2025-10-20 19:18:24,841 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-20 19:18:25,043 - __main__ - INFO - Liberando recursos...
+2025-10-20 19:18:25,057 - __main__ - INFO - Estadisticas finales:
+2025-10-20 19:18:25,057 - __main__ - INFO -    Frames procesados: 1
+2025-10-20 19:18:25,057 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-20 19:18:25,058 - __main__ - INFO - Sistema detenido
+2025-10-20 19:18:25,058 - __main__ - ERROR - Error fatal: module 'config' has no attribute 'LANZAR_OBJETO'
+Traceback (most recent call last):
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 309, in main
+    system.run()
+    ~~~~~~~~~~^^
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 271, in run
+    frame = self.process_frame(frame)
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\main.py", line 210, in process_frame
+    pose_results = self.pose_detector.analyze_pose(keypoints, width, height)
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\detector.py", line 759, in analyze_pose
+    'lanzar_objeto': self.detect_lanzar_objeto(keypoints, frame_width, frame_height),
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jonit\OneDrive\Escritorio\pose_detection\detector.py", line 442, in detect_lanzar_objeto
+    if max_arm_extension < config.LANZAR_OBJETO['extension_brazo_min']:
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'config' has no attribute 'LANZAR_OBJETO'
+2025-10-20 19:19:12,198 - __main__ - INFO - Iniciando sistema de deteccion de poses...
+2025-10-20 19:19:12,199 - __main__ - INFO - Cargando modelo yolov8n-pose.pt...
+2025-10-20 19:19:12,303 - __main__ - INFO - Modelo cargado correctamente
+2025-10-20 19:19:12,303 - __main__ - INFO - Conectando a camara: 3
+2025-10-20 19:19:13,464 - __main__ - INFO - Verificando lectura de frames...
+2025-10-20 19:19:13,464 - __main__ - INFO - Sistema iniciado correctamente
+2025-10-20 19:19:13,464 - __main__ - INFO - Resolucion de captura: 640x480
+2025-10-20 19:19:13,465 - __main__ - INFO - Iniciando deteccion...
+2025-10-20 19:19:13,465 - __main__ - INFO - Presiona 'q' para salir, 'r' para resetear cooldowns
+2025-10-20 19:20:43,957 - __main__ - INFO - Interrupcion por usuario
+2025-10-20 19:20:43,957 - __main__ - INFO - Liberando recursos...
+2025-10-20 19:20:43,995 - __main__ - INFO - Estadisticas finales:
+2025-10-20 19:20:43,996 - __main__ - INFO -    Frames procesados: 1326
+2025-10-20 19:20:43,996 - __main__ - INFO -    Alertas enviadas: 0
+2025-10-20 19:20:43,997 - __main__ - INFO - Sistema detenido

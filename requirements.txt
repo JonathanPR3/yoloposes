@@ -1,0 +1,14 @@
+# YOLOv8 para detección de poses
+ultralytics>=8.0.0
+
+# OpenCV para procesamiento de video
+opencv-python>=4.8.0
+
+# Requests para enviar notificaciones a API
+requests>=2.31.0
+
+# NumPy para cálculos matemáticos
+numpy>=1.24.0
+
+# Python-dotenv para variables de entorno
+python-dotenv>=1.0.0

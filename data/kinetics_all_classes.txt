@@ -1,0 +1,700 @@
+abseiling	1005
+acting in play	798
+adjusting glasses	638
+air drumming	940
+alligator wrestling	658
+answering questions	597
+applauding	715
+applying cream	605
+archaeological excavation	712
+archery	1020
+arguing	688
+arm wrestling	936
+arranging flowers	889
+arresting	604
+assembling bicycle	660
+assembling computer	972
+attending conference	646
+auctioning	825
+baby waking up	646
+backflip (human)	867
+baking cookies	881
+bandaging	977
+barbequing	859
+bartending	964
+base jumping	667
+bathing dog	797
+battle rope training	1002
+beatboxing	1010
+bee keeping	986
+being excited	707
+being in zero gravity	594
+belly dancing	827
+bench pressing	1031
+bending back	665
+bending metal	785
+biking through snow	1030
+blasting sand	961
+blending fruit	632
+blowdrying hair	848
+blowing bubble gum	892
+blowing glass	913
+blowing leaves	772
+blowing nose	789
+blowing out candles	1033
+bobsledding	701
+bodysurfing	958
+bookbinding	1006
+bottling	690
+bouncing ball (not juggling)	609
+bouncing on bouncy castle	860
+bouncing on trampoline	1007
+bowling	1013
+braiding hair	946
+breading or breadcrumbing	713
+breakdancing	1033
+breaking boards	896
+breaking glass	626
+breathing fire	846
+brush painting	1008
+brushing floor	723
+brushing hair	996
+brushing teeth	1027
+building cabinet	750
+building lego	717
+building sandcastle	863
+building shed	633
+bulldozing	676
+bungee jumping	909
+burping	803
+busking	1022
+calculating	677
+calligraphy	766
+canoeing or kayaking	1026
+capoeira	1033
+capsizing	612
+card stacking	609
+card throwing	615
+carrying baby	692
+carrying weight	605
+cartwheeling	1032
+carving ice	765
+carving marble	580
+carving pumpkin	921
+carving wood with a knife	628
+casting fishing line	673
+catching fish	862
+catching or throwing baseball	1003
+catching or throwing frisbee	878
+catching or throwing softball	843
+celebrating	1010
+changing gear in car	627
+changing oil	963
+changing wheel (not on bike)	1021
+chasing	622
+checking tires	838
+checking watch	598
+cheerleading	1023
+chewing gum	694
+chiseling stone	632
+chiseling wood	625
+chopping meat	729
+chopping wood	1019
+clam digging	648
+clapping	953
+clay pottery making	936
+clean and jerk	1033
+cleaning gutters	720
+cleaning pool	707
+cleaning shoes	950
+cleaning toilet	772
+cleaning windows	947
+climbing a rope	1022
+climbing ladder	814
+climbing tree	932
+closing door	589
+coloring in	548
+combing hair	606
+contact juggling	968
+contorting	760
+cooking chicken	775
+cooking egg	986
+cooking on campfire	739
+cooking sausages (not on barbeque)	1007
+cooking scallops	665
+cosplaying	775
+coughing	598
+counting money	798
+country line dancing	891
+cracking back	646
+cracking knuckles	736
+cracking neck	608
+crawling baby	1039
+crocheting	609
+crossing eyes	801
+crossing river	1025
+crying	791
+cumbia	731
+curling (sport)	743
+curling eyelashes	654
+curling hair	964
+cutting apple	637
+cutting cake	641
+cutting nails	889
+cutting orange	609
+cutting pineapple	947
+cutting watermelon	867
+dancing ballet	984
+dancing charleston	985
+dancing gangnam style	1015
+dancing macarena	1023
+deadlifting	1009
+dealing cards	612
+decorating the christmas tree	855
+decoupage	687
+delivering mail	604
+digging	734
+dining	837
+directing traffic	642
+disc golfing	780
+diving cliff	840
+docking boat	630
+dodgeball	975
+doing aerobics	997
+doing jigsaw puzzle	638
+doing laundry	616
+doing nails	1005
+doing sudoku	655
+drawing	828
+dribbling basketball	1020
+drinking shots	836
+driving car	1011
+driving tractor	1025
+drooling	711
+drop kicking	866
+drumming fingers	756
+dumpster diving	703
+dunking basketball	1020
+dyeing eyebrows	615
+dyeing hair	958
+eating burger	982
+eating cake	1026
+eating carrots	666
+eating chips	890
+eating doughnuts	860
+eating hotdog	823
+eating ice cream	1019
+eating nachos	668
+eating spaghetti	1033
+eating watermelon	777
+egg hunting	894
+embroidering	1000
+entering church	642
+exercising arm	765
+exercising with an exercise ball	998
+extinguishing fire	715
+faceplanting	954
+falling off bike	778
+falling off chair	847
+feeding birds	1022
+feeding fish	1003
+feeding goats	876
+fencing (sport)	795
+fidgeting	721
+filling cake	661
+filling eyebrows	700
+finger snapping	1028
+fixing bicycle	616
+fixing hair	655
+flint knapping	662
+flipping bottle	614
+flipping pancake	1001
+fly tying	924
+flying kite	907
+folding clothes	894
+folding napkins	993
+folding paper	974
+front raises	1022
+frying vegetables	881
+gargling	629
+geocaching	646
+getting a haircut	776
+getting a piercing	935
+getting a tattoo	1015
+giving or receiving award	921
+gold panning	744
+golf chipping	730
+golf driving	1020
+golf putting	691
+gospel singing in church	660
+grinding meat	611
+grooming cat	602
+grooming dog	965
+grooming horse	901
+gymnastics tumbling	1001
+hammer throw	1025
+hand washing clothes	710
+head stand	955
+headbanging	1028
+headbutting	868
+helmet diving	815
+herding cattle	610
+high fiving	723
+high jump	1017
+high kick	1015
+historical reenactment	913
+hitting baseball	878
+hockey stop	700
+holding snake	737
+home roasting coffee	639
+hopscotch	904
+hoverboarding	796
+huddling	759
+hugging (not baby)	1004
+hugging baby	690
+hula hooping	997
+hurdling	887
+hurling (sport)	1037
+ice climbing	1018
+ice fishing	892
+ice skating	862
+ice swimming	617
+inflating balloons	989
+installing carpet	731
+ironing	953
+ironing hair	714
+javelin throw	837
+jaywalking	673
+jetskiing	813
+jogging	768
+juggling balls	1011
+juggling fire	831
+juggling soccer ball	999
+jumping bicycle	633
+jumping into pool	882
+jumping jacks	790
+jumping sofa	798
+jumpstyle dancing	1027
+karaoke	760
+kicking field goal	927
+kicking soccer ball	1005
+kissing	758
+kitesurfing	1028
+knitting	1019
+krumping	1029
+land sailing	786
+laughing	1008
+lawn mower racing	661
+laying bricks	790
+laying concrete	875
+laying decking	627
+laying stone	637
+laying tiles	728
+leatherworking	761
+letting go of balloon	628
+licking	728
+lifting hat	653
+lighting candle	623
+lighting fire	632
+listening with headphones	561
+lock picking	985
+long jump	1021
+longboarding	906
+looking at phone	601
+looking in mirror	659
+luge	626
+lunge	1008
+making a cake	642
+making a sandwich	786
+making balloon shapes	929
+making bubbles	789
+making cheese	663
+making horseshoes	618
+making jewelry	931
+making latte art	724
+making paper aeroplanes	623
+making pizza	1011
+making slime	650
+making snowman	753
+making sushi	873
+making tea	692
+making the bed	954
+marching	996
+marriage proposal	714
+massaging back	777
+massaging feet	774
+massaging legs	678
+massaging neck	616
+massaging person's head	759
+metal detecting	615
+milking cow	1018
+milking goat	638
+mixing colours	633
+moon walking	732
+mopping floor	938
+mosh pit dancing	670
+motorcycling	1006
+mountain climber (exercise)	977
+moving baby	651
+moving child	703
+moving furniture	730
+mowing lawn	1025
+mushroom foraging	621
+needle felting	698
+news anchoring	769
+opening bottle (not wine)	1017
+opening coconuts	787
+opening door	707
+opening present	1030
+opening refrigerator	719
+opening wine bottle	740
+packing	813
+paragliding	1026
+parasailing	1023
+parkour	714
+passing American football (in game)	663
+passing American football (not in game)	985
+passing soccer ball	665
+peeling apples	661
+peeling banana	606
+peeling potatoes	610
+person collecting garbage	830
+petting animal (not cat)	869
+petting cat	689
+petting horse	615
+photobombing	620
+photocopying	704
+picking apples	618
+picking blueberries	642
+pillow fight	997
+pinching	625
+pirouetting	844
+planing wood	731
+planting trees	862
+plastering	1031
+playing accordion	1029
+playing american football	651
+playing badminton	1001
+playing bagpipes	1035
+playing basketball	853
+playing bass guitar	788
+playing beer pong	838
+playing billiards	623
+playing blackjack	628
+playing cards	634
+playing cello	899
+playing checkers	640
+playing chess	966
+playing clarinet	860
+playing controller	768
+playing cricket	939
+playing cymbals	877
+playing darts	639
+playing didgeridoo	1027
+playing dominoes	621
+playing drums	1026
+playing field hockey	642
+playing flute	1003
+playing gong	743
+playing guitar	920
+playing hand clapping games	654
+playing harmonica	881
+playing harp	1005
+playing ice hockey	1016
+playing keyboard	1004
+playing kickball	655
+playing laser tag	725
+playing lute	644
+playing mahjong	607
+playing maracas	830
+playing marbles	666
+playing monopoly	801
+playing netball	809
+playing nose flute	597
+playing oboe	679
+playing ocarina	882
+playing organ	1028
+playing paintball	1000
+playing pan pipes	733
+playing piano	1008
+playing piccolo	701
+playing pinball	804
+playing ping pong	858
+playing poker	854
+playing polo	790
+playing recorder	925
+playing road hockey	589
+playing rounders	660
+playing rubiks cube	746
+playing saxophone	1006
+playing scrabble	620
+playing shuffleboard	658
+playing slot machine	633
+playing squash or racquetball	1009
+playing tennis	968
+playing trombone	962
+playing trumpet	999
+playing ukulele	959
+playing violin	971
+playing volleyball	993
+playing with trains	604
+playing xylophone	1029
+poaching eggs	627
+poking bellybutton	625
+pole vault	1029
+polishing furniture	647
+polishing metal	766
+popping balloons	724
+pouring beer	753
+pouring milk	606
+pouring wine	655
+preparing salad	1001
+presenting weather forecast	1006
+pretending to be a statue	735
+pull ups	971
+pulling espresso shot	608
+pulling rope (game)	948
+pumping fist	875
+pumping gas	742
+punching bag	962
+punching person (boxing)	655
+push up	1009
+pushing car	902
+pushing cart	1003
+pushing wheelbarrow	701
+pushing wheelchair	894
+putting in contact lenses	669
+putting on eyeliner	656
+putting on foundation	814
+putting on lipstick	740
+putting on mascara	720
+putting on sari	545
+putting on shoes	618
+putting wallpaper on wall	626
+raising eyebrows	998
+reading book	1031
+reading newspaper	732
+recording music	694
+repairing puncture	682
+riding a bike	943
+riding camel	1040
+riding elephant	833
+riding mechanical bull	1023
+riding mule	749
+riding or walking with horse	862
+riding scooter	1012
+riding snow blower	832
+riding unicycle	1014
+ripping paper	905
+roasting marshmallows	731
+roasting pig	669
+robot dancing	964
+rock climbing	1030
+rock scissors paper	780
+roller skating	1023
+rolling eyes	708
+rolling pastry	625
+rope pushdown	998
+running on treadmill	905
+sailing	1036
+salsa dancing	1023
+saluting	616
+sanding floor	902
+sanding wood	651
+sausage making	645
+sawing wood	698
+scrambling eggs	896
+scrapbooking	734
+scrubbing face	682
+scuba diving	934
+seasoning food	646
+separating eggs	735
+setting table	715
+sewing	794
+shaking hands	775
+shaking head	1028
+shaping bread dough	790
+sharpening knives	998
+sharpening pencil	801
+shaving head	863
+shaving legs	666
+shearing sheep	1020
+shining flashlight	731
+shining shoes	965
+shoot dance	659
+shooting basketball	958
+shooting goal (soccer)	721
+shooting off fireworks	604
+shopping	631
+shot put	1024
+shouting	693
+shoveling snow	1024
+shredding paper	578
+shucking oysters	786
+shuffling cards	995
+shuffling feet	1016
+side kick	1003
+sieving	629
+sign language interpreting	679
+silent disco	789
+singing	827
+sipping cup	868
+situp	1016
+skateboarding	937
+ski ballet	669
+ski jumping	657
+skiing crosscountry	862
+skiing mono	621
+skiing slalom	982
+skipping rope	1004
+skipping stone	762
+skydiving	1025
+slacklining	1027
+slapping	1016
+sled dog racing	909
+sleeping	819
+slicing onion	656
+smashing	750
+smelling feet	781
+smoking	629
+smoking hookah	988
+smoking pipe	758
+snatch weight lifting	1025
+sneezing	840
+snorkeling	889
+snowboarding	1009
+snowkiting	1034
+snowmobiling	1025
+somersaulting	1025
+spelunking	957
+spinning plates	634
+spinning poi	989
+splashing water	693
+spray painting	1022
+spraying	716
+springboard diving	616
+square dancing	682
+squat	964
+squeezing orange	638
+stacking cups	660
+stacking dice	922
+standing on hands	780
+staring	723
+steer roping	771
+steering car	759
+sticking tongue out	988
+stomping grapes	734
+stretching arm	988
+stretching leg	996
+sucking lolly	598
+surfing crowd	1025
+surfing water	1026
+surveying	596
+sweeping floor	897
+swimming backstroke	709
+swimming breast stroke	906
+swimming butterfly stroke	695
+swimming front crawl	611
+swimming with dolphins	621
+swimming with sharks	693
+swing dancing	1023
+swinging baseball bat	740
+swinging on something	1026
+sword fighting	1019
+sword swallowing	535
+tackling	750
+tagging graffiti	747
+tai chi	907
+taking photo	608
+talking on cell phone	772
+tango dancing	977
+tap dancing	1019
+tapping guitar	1021
+tapping pen	995
+tasting beer	807
+tasting food	953
+tasting wine	626
+testifying	614
+texting	638
+threading needle	617
+throwing axe	890
+throwing ball (not baseball or American football)	1009
+throwing discus	1021
+throwing knife	761
+throwing snowballs	841
+throwing tantrum	767
+throwing water balloon	708
+tickling	830
+tie dying	611
+tightrope walking	868
+tiptoeing	617
+tobogganing	1007
+tossing coin	642
+tossing salad	610
+training dog	821
+trapezing	829
+treating wood	657
+trimming or shaving beard	1016
+trimming shrubs	633
+trimming trees	856
+triple jump	1027
+twiddling fingers	603
+tying bow tie	788
+tying knot (not on a tie)	1016
+tying necktie	920
+tying shoe laces	894
+unboxing	825
+uncorking champagne	612
+unloading truck	672
+using a microscope	621
+using a paint roller	670
+using a power drill	633
+using a sledge hammer	832
+using a wrench	647
+using atm	670
+using bagging machine	742
+using circular saw	643
+using inhaler	612
+using megaphone	627
+using puppets	789
+using remote controller (not gaming)	868
+using segway	901
+vacuuming car	630
+vacuuming floor	1018
+visiting the zoo	789
+wading through mud	728
+wading through water	650
+waiting in line	787
+waking up	1006
+walking on stilts	793
+walking the dog	964
+walking through snow	772
+walking with crutches	672
+washing dishes	866
+washing feet	790
+washing hair	615
+washing hands	1009
+watching tv	761
+water skiing	1001
+water sliding	1010
+watering plants	1026
+waving hand	776
+waxing armpits	680
+waxing back	615
+waxing chest	840
+waxing eyebrows	693
+waxing legs	920
+weaving basket	949
+weaving fabric	771
+welding	1015
+whistling	804
+windsurfing	812
+winking	779
+wood burning (art)	746
+wrapping present	996
+wrestling	897
+writing	802
+yarn spinning	786
+yawning	771
+yoga	801
+zumba	976
